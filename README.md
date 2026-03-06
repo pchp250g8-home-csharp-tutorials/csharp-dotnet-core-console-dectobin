@@ -1,5 +1,5 @@
 DecToBin. C# Tutorials. Simple Input/Output. Strings. Algorithms. DotNet Core Platform. Console Application. 
-A console application in the C++ programming language. 
+A console application in the C# programming language. 
 The program does the following:
   1. Prompts the user to enter an integer.
   2. Checks whether the number is positive. If not, the program displays a message about the invalid number and terminates.
