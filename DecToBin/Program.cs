@@ -1,7 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
+const uint MAX_INT = uint.MaxValue;
 Console.WriteLine("Input an unsigned integer number");
 var bIsRightNumber = (uint.TryParse(Console.ReadLine(), out var uNumber)) &&
-                     (uNumber <= uint.MaxValue);
+                     (uNumber <= MAX_INT);
 if(!bIsRightNumber)
 {
     Console.WriteLine("Invalid number format or number too big");
@@ -19,7 +20,7 @@ if (strBinNum.Length == 0)
     strBinNum = "0";
 Console.WriteLine
 (
-    "The binary equavalent of the decimal number {0} is: {1}",
+    "The binary equivalent of the decimal number {0} is: {1}",
     uNumber,strBinNum
 );
 Console.Read();
